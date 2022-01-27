@@ -1,0 +1,4 @@
+#!/usr/bin/env -S ruby --disable-gems
+# frozen_string_literal: true
+
+exec('bundle', 'exec', 'ruby', '-Ilib:test', *ARGV)
